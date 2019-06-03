@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	  "start": "node app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/badunmo/comp-2068-blog#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.11",
+    "pug": "^2.0.3"
   }
 }

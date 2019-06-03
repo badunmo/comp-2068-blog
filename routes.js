@@ -2,9 +2,10 @@
 const express = require('express');
 const app = express();
 
-// Importing the pageRoutes
-const pageRoutes = require('./routes/pages');
-const blogRoutes = require('./routes/blogs');
+// Importing the routes
+const pageRoutes = require('./routes/pageRoutes');
+const blogRoutes = require('./routes/blogRoutes');
+
 
 // Registering our pageRoutes
 app.use('/', pageRoutes);
